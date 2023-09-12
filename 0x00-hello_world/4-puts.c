@@ -1,2 +1,7 @@
-#!/bin/bash
-echo -n "Programming is like building a multilingual puzzle" | put -e "\n"
+#include<stdio.h>
+int main()
+{
+	char ex[] = "Programming is like building a multilingual puzzle";
+	puts(ex);
+	return 0;
+}
