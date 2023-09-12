@@ -1,18 +1,18 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
- * print_alphabet_x10 - Prints the lowercase alphabet 10 times, followed by a new line.
+ * print_alphabet_x10 - Prints the alphabet in lowercase 10 times.
  */
 void print_alphabet_x10(void)
 {
-    char c;
+    char letter;
     int i;
 
     for (i = 0; i < 10; i++)
     {
-        for (c = 'a'; c <= 'z'; c++)
+        for (letter = 'a'; letter <= 'z'; letter++)
         {
-            _putchar(c);
+            _putchar(letter);
         }
         _putchar('\n');
     }
