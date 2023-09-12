@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "Programming is like building a multilingual puzzle\n"
+echo -n "Programming is like building a multilingual puzzle" | put -e "\n"
