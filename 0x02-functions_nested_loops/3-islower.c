@@ -2,9 +2,9 @@
 #include "ctype.h"
 
 /**
- * _iseven - checks for alphabetic character.
+ * _islower - checks if the character is lower case or not.
  */
-int _isalpha(int c)
+int _islower(int c)
 {
 	if(islower(c) > 0) {
 		return 1;
