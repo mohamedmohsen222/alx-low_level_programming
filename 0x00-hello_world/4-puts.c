@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main fun
+ * main - fun that prints a text
  * Return: 0
  */
 int main(void)
