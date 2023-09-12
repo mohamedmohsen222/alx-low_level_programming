@@ -3,11 +3,11 @@
 
 /**
  * _islower - checks if the character is lower case or not.
+ * @c: char to be checked
  */
 int _islower(char c)
 {
-	if(islower(c) > 0) {
-		return 1;
-	}
-	return 0;
+        if(islower(c) > 0)
+                return 1;
+        return 0;
 }
