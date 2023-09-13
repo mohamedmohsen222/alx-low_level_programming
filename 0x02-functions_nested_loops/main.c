@@ -1,14 +1,10 @@
 #include "main.h"
-#include <unistd.h> 
-int _abs(int x); 
-int _putchar(char c)
-{
-    /* Your _putchar implementation here */
-    return write(1, &c, 1);
+#include "abs_function.h"
+
+int main(void) {
+    int r;
+    r = _abs(-1);
+    // Your code here
+    return 0;
 }
 
-int main(void)
-{
-    print_alphabet_x10();
-    return (0);
-}
