@@ -1,23 +1,23 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * main - tests the print_remaining_days() function
- * Return: Always 0
- */
+* main - prints the largest of 3 integers
+* Return: 0
+*/
+
 int main(void)
 {
-    int month;
-    int day;
-    int year;
+        int a, b, c;
+        int largest;
 
-    month = 4;
-    day = 10;
-    year = 2021;
+        a = 972;
+        b = -98;
+        c = 0;
 
-    printf("Date: %02d/%02d/%04d\n", month, day, year);
+        largest = largest_number(a, b, c);
 
-    print_remaining_days(month, day, year);
+        printf("%d is the largest number\n", largest);
 
-    return (0);
+        return (0);
 }
-
