@@ -1,20 +1,25 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * main - tests the largest_number() function
- * Return: Always 0
- */
+* main - causes an infinite loop
+* Return: 0
+*/
+
 int main(void)
 {
-    int a, b, c, largest;
+        int i;
 
-    a = 98;
-    b = 402;
-    c = -198;
-    largest = largest_number(a, b, c);
+        printf("Infinite loop incoming :(\n");
 
-    printf("%d is the largest number\n", largest);
+        i = 0;
 
-    return (0);
+        while (i < 10)
+        {
+                putchar(i);
+/* there is no i++ so i never gets more than 0*/
+        }
+
+        printf("Infinite loop avoided! \\o/\n");
+
+        return (0);
 }
-
