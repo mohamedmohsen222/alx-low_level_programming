@@ -13,12 +13,10 @@ void times_table(void)
 			if (j == 0)
 				printf("%d", result);
 			else
-				printf(",  %d", result);
+				printf(",%3d", result);
 
-			if (result < 10 && j < 9)
-				printf(",   ");  /* Add extra spaces for single-digit numbers*/
-			else if (j < 9)
-				printf(",  ");   /* Adjust spacing for double-digit numbers*/
+			if (j < 9)
+				printf(",");
 		}
 		printf("\n");
 	}
