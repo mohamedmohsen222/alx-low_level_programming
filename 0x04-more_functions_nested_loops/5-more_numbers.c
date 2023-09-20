@@ -12,13 +12,8 @@ void more_numbers(void)
     {
         for (x = 0; x <= 14; x++)
         {
-            if (x < 10)
-                putchar(x + '0');
-            else
-            {
-                putchar(x / 10 + '0');
-                putchar(x % 10 + '0');
-            }
+            putchar((x < 10) ? (x + '0') : ((x / 10) + '0'));
+            putchar((x < 10) ? '\0' : (x % 10 + '0'));
         }
         putchar('\n');
     }
